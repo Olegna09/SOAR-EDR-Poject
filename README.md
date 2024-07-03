@@ -30,7 +30,5 @@ Every screenshot should have some text explaining what the screenshot is about.
 
 Example below.
 
-![LINUX-LOGO](https://github.com/Olegna09/Detection-Lab/assets/89851216/7c22681d-01c3-413f-b73c-14b2d2a2c847)
-
 
 *Ref 1: Network Diagram*
