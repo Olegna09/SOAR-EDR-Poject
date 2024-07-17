@@ -5,7 +5,6 @@
 The SOAR-EDR Project objective is to automate the response by using tines (SOAR) and the detection tools are LimaCharlie (EDR). We will create a detection rule as well as implementing playbooks in this project. 
 
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
 
 - Understanding of LimaCharlie EDR.
 - Proficiency in analyzing and interpreting network logs.
@@ -14,11 +13,10 @@ The SOAR-EDR Project objective is to automate the response by using tines (SOAR)
 - Development of critical thinking and problem-solving skills in cybersecurity.
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- LimaCharlie for Event Detection
+- Tines for SOAR Playbook/Story
+- Slack and Email for detection messaging 
 
 ## Steps:
 ## PART1: DIAGRAM
