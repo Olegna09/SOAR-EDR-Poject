@@ -1,4 +1,4 @@
-# PROJECTNAME
+# SOAR-EDR
 
 ## Objective
 [Brief Objective - Remove this afterwards]
