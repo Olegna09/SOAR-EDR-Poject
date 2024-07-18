@@ -69,3 +69,11 @@ Now You can see the details of Host machine when you click the host name in sens
 *Ref 2.6*
 
 ![Ref 2 6](https://github.com/user-attachments/assets/c0e78cea-7f45-433e-a0ad-53918b684c02)
+
+
+There are a lot of information that we can leverage for investigation in LimaCharlie. You can see below all the section, and each section has a content that you cant get and use it in investigation. 
+
+*Ref 2.6*
+
+![Ref 2 7](https://github.com/user-attachments/assets/134682b0-49c2-4c03-89ab-33f1bd63a50e)
+
