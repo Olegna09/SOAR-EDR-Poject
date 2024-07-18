@@ -77,3 +77,6 @@ There are a lot of information that we can leverage for investigation in LimaCha
 
 ![Ref 2 7](https://github.com/user-attachments/assets/134682b0-49c2-4c03-89ab-33f1bd63a50e)
 
+#
+## PART 3: GENERATE TELEMETRY AND CREATE DETECTION AND RESPONSE RULES
+Let's talk first about lazagne which is the telemetry we will be using. Lazagne is used to retrieve lots of passwords stored on a local computer. This tool has been developed for the purpose of finding the passwords for the most commonly-used software. 
