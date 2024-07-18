@@ -56,4 +56,16 @@ After running you can see the message in the PowerShell "Agent Installed Success
 ![Ref 2 4](https://github.com/user-attachments/assets/c7f28bc7-802a-4fbe-b37a-17e97fd4bd1b)
 
 
+Now that the agent/sensor is installed. The host machine should be appeared in Sensors list in LimaCharlie Server
 
+
+*Ref 2.5*
+
+![Ref 2 5](https://github.com/user-attachments/assets/1d34bc4f-482a-46a1-aa02-3a0cf47ddee9)
+
+
+Now You can see the details of Host machine when you click the host name in sensors list in LimaCharlie
+
+*Ref 2.6*
+
+![Ref 2 6](https://github.com/user-attachments/assets/c0e78cea-7f45-433e-a0ad-53918b684c02)
