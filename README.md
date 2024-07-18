@@ -41,7 +41,19 @@ To install LimaCharlie agent/sensor, we need to scroll down in the installation 
 ![Ref 2 2](https://github.com/user-attachments/assets/5541d212-1673-4d2b-be95-439995567398)
 
 
+After Downloading the sensor, Just run it in PowerShell by navigating to it's path and run the downloaded installer. 
 
+*Ref 2.3*
+
+![Ref 2 3](https://github.com/user-attachments/assets/dae425c7-d3cd-42e7-95e7-b306eb74860b)
+
+
+
+After running you can see the message in the PowerShell "Agent Installed Successfully!" (Ref 2.3). Check also the services.msc and find LimaCharlie if running. 
+
+*Ref 2.4*
+
+![Ref 2 4](https://github.com/user-attachments/assets/c7f28bc7-802a-4fbe-b37a-17e97fd4bd1b)
 
 
 
