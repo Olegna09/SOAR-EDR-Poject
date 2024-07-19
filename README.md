@@ -80,3 +80,59 @@ There are a lot of information that we can leverage for investigation in LimaCha
 #
 ## PART 3: GENERATE TELEMETRY AND CREATE DETECTION AND RESPONSE RULES
 Let's talk first about lazagne which is the telemetry we will be using. Lazagne is used to retrieve lots of passwords stored on a local computer. This tool has been developed for the purpose of finding the passwords for the most commonly-used software. 
+
+Now our first step in this part is to download lazagne in this link https://github.com/AlessandroZ/LaZagne/releases/. Make sure to turn off windows security to be able to run this tool. 
+
+I used powershell to run lazagne, and after running the output should be like this:
+
+Ref 3.1
+
+![Ref 3 1](https://github.com/user-attachments/assets/34a13e75-2165-48c9-a781-0176c28089ef)
+
+
+We already run the lazagne, so it should be detected in LimaCharlie. Now head to LimaCharlie, go to sensors list and choose your sensor, go to timeline section and search lazagne to find the events associated with it. We should be interested in the NEW_PROCESS events which we will be a good information when creating a detection rules. 
+
+Ref 3.2
+![Ref 3 2](https://github.com/user-attachments/assets/b7716481-6173-40b8-a1a4-e98363696734)
+
+
+
+To create Detection rules and response, lets head to LimaCharlie Home -> Choose our organization -> Go to automation and choose D&R Rules. In D&R Rules top right corner, click New RUle.
+
+Ref 3.3
+![Ref 3 3](https://github.com/user-attachments/assets/6fe647d1-659a-4d78-8806-21be09d4494d)
+
+
+When I first see the rule creation, it's very intimidating, but we can create rule based on the other rule that is created, so we don't need to create rule from the scratch. We'll just need to copy and edit the existing rule and make it customize as we want it to function. Let's go back to D&R rules and search for the rules that have similar in the rule that we want to create.
+
+We are creating rule based on the tool called lazagne, which is a password recovery tool. Now we need to find a similar rule that function like a password recovery tool or credential access rule. Now we need to search "credential" for the credential related rule. 
+
+Ref 3.4
+![Ref 3 4](https://github.com/user-attachments/assets/438382ea-37f8-45c0-bd1a-28f5fc9972f3)
+
+
+Now we're interested in windows process creation rule. Why? Like I said before when we search for the lazagne events, this events has a lot of good information that is useful when creating a rule. Take a look at ref 3.2 the LimaCharlie generated an event that is NEW_PROCESS related to lazagne. So we will be creating a detection when lazagne was executed and there was a new process generated. 
+
+Now Back to LimaCharlie, let's click to the rule that we want to the edit and after clicking you can see the "View the content of this rule in the GitHub repository" so let's click on the link.
+
+Ref 3.5
+![Ref 3 5](https://github.com/user-attachments/assets/3e366a41-603e-4a05-b756-2b2fc4556aa4)
+
+
+Now we will be redirecting to GitHub page, click on raw and copy the content. 
+
+Ref 3.6
+![Ref 3 6](https://github.com/user-attachments/assets/95fb81eb-bfff-4f73-a9da-9fb54b0b3ca8)
+
+
+The content will be like this:
+
+Ref 3.7
+![Ref 3 7](https://github.com/user-attachments/assets/aba57ff8-babf-4386-973f-1572782b9cfb)
+
+
+Now we need to edit our newly created rule by clicking the pencil button alongside with it and paste the content. And now we're ready to create our own detection rule. 
+
+Ref 3.8
+
+
