@@ -159,6 +159,7 @@ In our case we use file path with the value of Lazagne.exe
 Now to summarize our Detection. The event type must be either New_Process or Existing_Process AND case sensitive doesn't matter, and must be a windows and the file path must be Lazagne.exe. 
 
 Ref 3.10
+
 ![3 10](https://github.com/user-attachments/assets/355e453c-a276-4b33-ada8-348553a8e39c)
 
 In PowerShell, we can run the script ".\lazagne.exe all". Which means, it can extract all the password that is available in the system. To Detect this event we need to create a detection that can describe this action. It will be the detection of the following:
