@@ -128,11 +128,13 @@ Ref 3.6
 The content will be like this:
 
 Ref 3.7
+
 ![Ref 3 7](https://github.com/user-attachments/assets/aba57ff8-babf-4386-973f-1572782b9cfb)
 
 
 Now we need to edit our newly created rule by clicking the pencil button alongside with it and paste the content. And now we're ready to create our own detection rule. 
 
 Ref 3.8
+![Ref 3 8](https://github.com/user-attachments/assets/1c55a089-7015-4347-bc97-02359a8534dc)
 
 
