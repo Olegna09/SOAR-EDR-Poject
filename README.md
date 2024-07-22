@@ -137,4 +137,27 @@ Now we need to edit our newly created rule by clicking the pencil button alongsi
 Ref 3.8
 ![Ref 3 8](https://github.com/user-attachments/assets/1c55a089-7015-4347-bc97-02359a8534dc)
 
+To create a custom rules, you have 2 fields, the Detect and the respond. As we can see in the image 3.7 there are Detect and Respond section and we need to paste the Detect script to Detect field and the Respond script to Respond field. We can also see the operators in the right side that we can use later for creation of our rule. 
+
+Ref 3.9
+
+![3 9](https://github.com/user-attachments/assets/afa022d7-f256-49a0-b946-b0797b468164)
+
+
+Now let's get to rule creation script now. The events specifies you what event you need to trigger the alert? It is NEW_PROCESS event? EXISTING PROCESS event? FILE_TYPE_ACCESSED event? In our case NEW_PROCESS event and EXISTING PROCESS event. Our first operator are and, we can see that in "op:and". 
+
+Now Let's proceed to the rules. Rules is a criteria, you must follow this criteria to trigger an alert. It should be; 
+	operator is windows, 
+	case sensitive is false 
+And follow by another operator which is "ends with" the 
+	path: event/FILE_PATH
+	value: C:\Users\Client\Download\Lazagne.exe
+File path is what is the specific metrics, or it answers in the question, What is basis of our detection? It is File path? It is Hash? or it is IP? then the value is what is the value of file_path? what is the value of hash? what is the value of IP address? (you can see it in Ref 3.2)
+
+In our case we use file path with the value of Lazagne.exe
+
+Now to summarize our Detection. The event type must be either New_Process or Existing_Process AND case sensitive doesn't matter, and must be a windows and the file path must be Lazagne.exe. 
+
+Ref 3.10
+![3 10](https://github.com/user-attachments/assets/355e453c-a276-4b33-ada8-348553a8e39c)
 
