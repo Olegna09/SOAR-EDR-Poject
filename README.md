@@ -168,4 +168,32 @@ In PowerShell, we can run the script ".\lazagne.exe all". Which means, it can ex
 - The file path must be end with "lazagne.exe"
 - The command line must be end with "all"
 - The command line must contains lazagne
-- The hash is equal to lazagne hash. 
+- The hash is equal to lazagne hash.
+
+Ref 3.11
+
+![3 11](https://github.com/user-attachments/assets/7145257e-7b6b-4ca6-99da-078fbf86f669)
+
+Now we need to make a respond script to respond for the detection. Below is the sample script:
+
+*action: report
+  metadata:
+    author: GELO
+    description: Detects Lazagne (SOAR-EDR)
+    falsepositives:
+      - Nope
+    level: medium
+    tags:
+      - attack.credentials_access
+  name: Lazagne (SOAR-EDR)*
+
+
+As we can see above, all the details of the respond report is in detailed. Now we can save our rules by clicking save rule.
+
+We can test our rule by scrolling down and in the target event and pasting the event that we get from the lazagne. You can go back to sensors list -> navigate to the sensor -> and click timeline to get the event and paste it in the target rule. 
+
+Ref 3.12
+
+![3 12](https://github.com/user-attachments/assets/0ba93402-bcbd-47f3-a74e-fef29dd5330e)
+
+
