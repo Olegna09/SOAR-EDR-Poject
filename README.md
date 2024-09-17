@@ -192,8 +192,13 @@ As we can see above, all the details of the respond report is in detailed. Now w
 
 We can test our rule by scrolling down and in the target event and pasting the event that we get from the lazagne. You can go back to sensors list -> navigate to the sensor -> and click timeline to get the event and paste it in the target rule. 
 
+
 Ref 3.12
 
 ![3 12](https://github.com/user-attachments/assets/0ba93402-bcbd-47f3-a74e-fef29dd5330e)
+
+
+I'm Kinda stuck testing the scripts because it say's it doesn't match. What I just did is to test it in the host machine by running the lazagne.exe and see if there are detection triggered in LimaCharlie. 
+
 
 
