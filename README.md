@@ -200,5 +200,23 @@ Ref 3.12
 
 I'm Kinda stuck testing the scripts because it say's it doesn't match. What I just did is to test it in the host machine by running the lazagne.exe and see if there are detection triggered in LimaCharlie. 
 
+But first of all I clear the detection logs in LimaCharlie to see the output. 
+
+Ref 3.13
+
+![image](https://github.com/user-attachments/assets/fd196e8b-10c9-491c-9779-bed37247e3dd)
+
+Then I run the Lazagne.exe in my host machine and wait if it will triggered an alert to LimaCharlie
+And After waiting for around 5 minutes. It works! 
+
+Ref 3.14
+
+![image](https://github.com/user-attachments/assets/c36c4fbf-fd82-4d2c-93c2-c58bd062c322)
+
+You can see the details in the alert like the Author, Filepath, Link and many more. So this basically means our Detection and Reponse creation are working perfectly fine.
+
+Ref 3.15
+
+![image](https://github.com/user-attachments/assets/9b2bc4d5-5b3c-4ffe-aa0a-479c79c27aac)
 
 
