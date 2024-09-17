@@ -220,3 +220,6 @@ Ref 3.15
 ![image](https://github.com/user-attachments/assets/9b2bc4d5-5b3c-4ffe-aa0a-479c79c27aac)
 
 
+## PART 3: SETUP SLACK AND TINES. TEST CONNECTION (LimaCharlie + Tines)
+
+In this part, we will be setting up Slack and Tines 
