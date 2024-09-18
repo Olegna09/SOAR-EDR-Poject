@@ -239,7 +239,47 @@ Now we need to established a connection between LimaCharlie and Tines so that Ti
 - First, we need to delete all the items in the story board by clicking the Item and delete
 
 Ref 4.3
+
 ![image](https://github.com/user-attachments/assets/4a4b053a-6f27-47dd-bfa0-8a6d705cad79)
+
+- Now we need to drag the Webhook in storyboard and named it Retrieve Detection
+- Put a Description Retrieves LimaCharlie Detection as it will function like this
+- Copy the Webhook URL
+
+Ref 4.4
+
+![image](https://github.com/user-attachments/assets/30e0912b-e2af-482d-beb9-e448d96572ee)
+
+Now we need to head to LimaCharlie
+- Go to your Organization and select Output
+
+Ref 4.5
+
+![image](https://github.com/user-attachments/assets/08786d1d-bfe5-48ca-90e4-fce9a87e488a)
+
+- Inside the output just clien Add Output
+- Select Detection since we're interested in Detection
+
+Ref 4.6
+![image](https://github.com/user-attachments/assets/9d71ff07-e7a9-4597-83a5-94e24b98445b)
+
+- For the Output Destination Let's choose Tines
+
+Ref 4.7
+![image](https://github.com/user-attachments/assets/cd4e623c-1a64-4e58-bcee-8be427f45265)
+
+- For the name let's use 'ALOBA-SOAR-EDR'
+- Paste the Webhook URL that we copied in Tines
+- And Save Output
+  
+Ref 4.8
+![image](https://github.com/user-attachments/assets/b765bdca-4a23-4a0b-b1f0-8ad6c35ae276)
+
+And that's it! We've just created an output of our detection. 
+
+Ref 4.9
+![image](https://github.com/user-attachments/assets/d463ca46-8d5c-4e46-9927-3bc4e7641463)
+
 
 
 
