@@ -299,6 +299,13 @@ Ref 4.11
 
 We now have account in Slack and Tines. And we also confirmed that the detection in LimaCharlie are showing in Tines.
 
+## PART 5: CREATE A PLAYBOOK. 
+### OBJECTIVE: 
+### - Send a Slack message and an email containing an information about the detection that LimaCharlie Generated
+### - Tines Will prompt a user if they want to Isolate the machine
+  ### - If Yes, LimaCharlie then automatically isolate the machine
+  ### - If No, Ignore
+
 
 
 
