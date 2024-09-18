@@ -297,6 +297,8 @@ Ref 4.11
 
 ![image](https://github.com/user-attachments/assets/b01b7647-5385-4059-b576-787a2a71de2e)
 
+We now have account in Slack and Tines. And we also confirmed that the detection in LimaCharlie are showing in Tines.
+
 
 
 
