@@ -220,6 +220,18 @@ Ref 3.15
 ![image](https://github.com/user-attachments/assets/9b2bc4d5-5b3c-4ffe-aa0a-479c79c27aac)
 
 
-## PART 3: SETUP SLACK AND TINES. TEST CONNECTION (LimaCharlie + Tines)
+## PART 4: SETUP SLACK AND TINES. TEST CONNECTION (LimaCharlie + Tines)
 
-In this part, we will be setting up Slack and Tines 
+In this part, we will be setting up Slack and Tines.
+
+All we have to do is to sign up or create account in slack or tines. First, we'll go with Slack. I created a workspace named ALOBAH-SOAR-EDR then I create a channel named alerts. I use my gmail account as my email in the slack since I'm using google it is already signed in when I choose my gmail account as a signed up option. 
+
+Ref 4.1
+
+![image](https://github.com/user-attachments/assets/3018b5f8-7e46-4e2f-a258-69cf76a5ebe5)
+
+Next is the Tines. Same as Slack I use my gmail account in sign up option and created company ALOBAH-EDR. In the Tines, in the left side part there are actions we can use to help us create our story or Playbook, We just need to drag it to our story board. There are also templates that we can use. There are also Story Library that we can use when we want to create a story from that Library. 
+
+![image](https://github.com/user-attachments/assets/f6da2a4f-4578-48c4-8ecf-59c008f0d780)
+
+
