@@ -217,7 +217,7 @@ You can see the details in the alert like the Author, Filepath, Link and many mo
 
 Ref 3.15
 
-![image](https://github.com/user-attachments/assets/9b2bc4d5-5b3c-4ffe-aa0a-479c79c27aac)
+![image](https://github.com/user-attachments/assets/bb5fabd6-773c-41ba-8e13-ff63d567680f)
 
 
 ## PART 4: SETUP SLACK AND TINES. TEST CONNECTION (LimaCharlie + Tines)
