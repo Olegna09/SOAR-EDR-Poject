@@ -232,6 +232,16 @@ Ref 4.1
 
 Next is the Tines. Same as Slack I use my gmail account in sign up option and created company ALOBAH-EDR. In the Tines, in the left side part there are actions we can use to help us create our story or Playbook, We just need to drag it to our story board. There are also templates that we can use. There are also Story Library that we can use when we want to create a story from that Library. 
 
+Ref 4.2
 ![image](https://github.com/user-attachments/assets/f6da2a4f-4578-48c4-8ecf-59c008f0d780)
+
+Now we need to established a connection between LimaCharlie and Tines so that Tines can determine the detection of LimaCharlie
+- First, we need to delete all the items in the story board by clicking the Item and delete
+
+Ref 4.3
+![image](https://github.com/user-attachments/assets/4a4b053a-6f27-47dd-bfa0-8a6d705cad79)
+
+
+
 
 
