@@ -338,17 +338,45 @@ Ref 5.5
 
 ![image](https://github.com/user-attachments/assets/6067991f-08b4-49f7-bd35-381efc9f9766)
 
-- And When the page prompt just click
+- And When the page prompt just click "Use Tines app in Slack"
 
-Ref 5.5
+Ref 5.6
+
 ![image](https://github.com/user-attachments/assets/416d8eef-633c-41c4-82ba-a928b55ce23b)
 
+- Now another page will be prompted which is the Tines requesting permission to Slack. You can review that then click "Allow"
 
-Ref 5.5
+Ref 5.7
 
-Ref 5.5
+![image](https://github.com/user-attachments/assets/926e91ca-5349-481e-b4de-dbce44fbb4b3)
 
+Now We have established a connection to slack. We need to configure Slack now to Tines.
+ - Go to Tines
+ - Go to Templates and Select Slack
 
+Ref 5.8
+![image](https://github.com/user-attachments/assets/c2ba90aa-e9f5-47c9-a8e5-7e827ec18e96)
+
+- Now, search for the action which is "send a message"
+- And you need to fill out necessary information in the field
+
+Ref 5.9
+
+![image](https://github.com/user-attachments/assets/e844cc24-d220-4e21-93c2-adedbc902e56)
+
+- The Channel user ID can be found in Slack -> Right click for the #alert channel and view channel detail
+
+Ref 6.0
+
+![image](https://github.com/user-attachments/assets/9924c952-fd1b-4bbb-97bc-9ba385f14a15)
+
+- Copy the Channel ID and Paste in in the Tines
+- Create a message and click "Connect to Slack"
+- There will be prompt but just close it
+
+Ref 6.1
+
+![image](https://github.com/user-attachments/assets/a8b25ebe-712e-4ce3-8c3a-a454696eca71)
 
 
 
