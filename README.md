@@ -306,6 +306,13 @@ We now have account in Slack and Tines. And we also confirmed that the detection
   ### - If Yes, LimaCharlie then automatically isolate the machine
   ### - If No, Ignore
 
+When we head back to our diagram in ref 1, When an attacker initiates an attack, LimaCharlie will detect it and it will automatically send to Tines and Tines will send an email to Slack. So, we need to have a connection between Tines and Slack. Now Let's do it:
+
+- First go to Slack and go to more -> Automations and find the Tines
+Ref 5.1
+![image](https://github.com/user-attachments/assets/9501aea6-3339-47fa-b5b9-84e61c137bcf)
+
+
 
 
 
