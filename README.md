@@ -306,14 +306,47 @@ We now have account in Slack and Tines. And we also confirmed that the detection
   ### - If Yes, LimaCharlie then automatically isolate the machine
   ### - If No, Ignore
 
-When we head back to our diagram in ref 1, When an attacker initiates an attack, LimaCharlie will detect it and it will automatically send to Tines and Tines will send an email to Slack. So, we need to have a connection between Tines and Slack. Now Let's do it:
-
-- First go to Slack and go to more -> Automations and find the Tines
+When we head back to our diagram in ref 1, When an attacker initiates an attack, LimaCharlie will detect it and it will automatically send to Tines and Tines will send an email to Slack. So, we need to have a connection between Tines and Slack. Now Let's Do it
+ - Go to slack and click more and automations
+   
 Ref 5.1
-![image](https://github.com/user-attachments/assets/9501aea6-3339-47fa-b5b9-84e61c137bcf)
+
+![image](https://github.com/user-attachments/assets/3d645702-eeb5-4303-b488-34a0a59f0dd4)
+
+- Click the apps and search for Tines and click Add
+  
+Ref 5.2
+
+![image](https://github.com/user-attachments/assets/db48aa60-bce2-463b-b8e1-2d815773e0ab)
+
+- You will be redirecting to another page where you can see the details of a Slack.
+- Just click "Add to Slack"
+- After adding you will be prompt by a step guide on installing the app
+- You need to follow this guide to install the apps in tines
+  
+Ref 5.3
+
+![image](https://github.com/user-attachments/assets/d70d4c97-e33d-4d03-a529-80c389ff3f84)
 
 
+Ref 5.4
 
+![image](https://github.com/user-attachments/assets/367cfbab-05f8-450b-9ef6-a63e879edb4b)
+
+
+Ref 5.5
+
+![image](https://github.com/user-attachments/assets/6067991f-08b4-49f7-bd35-381efc9f9766)
+
+- And When the page prompt just click
+
+Ref 5.5
+![image](https://github.com/user-attachments/assets/416d8eef-633c-41c4-82ba-a928b55ce23b)
+
+
+Ref 5.5
+
+Ref 5.5
 
 
 
