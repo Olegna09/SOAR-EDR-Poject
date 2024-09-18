@@ -280,6 +280,25 @@ And that's it! We've just created an output of our detection.
 Ref 4.9
 ![image](https://github.com/user-attachments/assets/d463ca46-8d5c-4e46-9927-3bc4e7641463)
 
+Now Let's test If this works by running the Lazagne.exe into our host machine.
+- After Running we should click refresh samples
+- Actually it took me a while to detect the lazagne.exe so I restarted the LimaCharlie and head to detection
+- It was in detection logs. 
+
+Ref 4.10
+![image](https://github.com/user-attachments/assets/a0efdfe8-aed3-48f9-aaa2-bc1e94a0fccf)
+
+- Now, I head back to output and see the view samples if it captures the our lazagne.exe but it only captures the first 3 script.
+- Basically, it is captured in Detection, so it means even if I can't see it in output (or there might be way). I should be seeing it in Tines.
+- So I head to Tines to check the events.
+- And Guess what? In the last 2 logs, I found it.
+
+Ref 4.11
+
+![image](https://github.com/user-attachments/assets/b01b7647-5385-4059-b576-787a2a71de2e)
+
+
+
 
 
 
