@@ -378,6 +378,50 @@ Ref 6.1
 
 ![image](https://github.com/user-attachments/assets/a8b25ebe-712e-4ce3-8c3a-a454696eca71)
 
+To Test the connectivity of a Tines to Slack, just hit the "Send a message" and click test. We can confirmed that it is working if the Tines send a message to Slack. 
+
+Ref 6.1
+
+![image](https://github.com/user-attachments/assets/02c27017-64e6-4398-a166-d6d82d382c1f)
+
+And now can see that it is working.
+
+Ref 6.2
+
+![image](https://github.com/user-attachments/assets/474d325c-e102-4c01-8c40-f73014720e42)
+
+Now, as we back to our diagram (ref 1). We also need to send an email from Tines. Now let's do it.
+
+- Let's head to our Tines and lets drag the "send email" action to story board.
+- Now connect the "Retreive detections webhook" to "send email" action
+- And let's fill out the information needed on right side.
+
+Ref 6.3
+
+![image](https://github.com/user-attachments/assets/6f4dc7a2-850c-4ef9-a546-b91160490dea)
+
+Now to Test it, we just need to click the "Send email" action and Test. Check your email if it's working and if it is, then the configuration is successful. 
+
+Ref 6.4
+
+![image](https://github.com/user-attachments/assets/9689ae4a-0c7d-432a-8751-d82698584b28)
+
+We have now connection from Tines to Slack and Email. Now the next thing we need to do is the confirmation prompt. 
+- To create a prompt we will be using page. Go to "tools" and select "Page"
+- Now in Page in the right side just fill out the information needed
+  	- Name: User Prompt
+  	- Description: Isolate Computer (Yes/No)
+  	- Access Control: Member of this Tines Tenant
+  	- And I leave the rest default
+  	- Now we need to connect the "Webhook" to "Page"
+  	- We can also edit the page name in the bottom right where "Edit Page located"
+
+Ref 6.5
+
+![image](https://github.com/user-attachments/assets/6242b143-b1bf-4d43-9db8-22818fa64954)
 
 
-
+Ref 6.6
+Ref 6.7
+Ref 6.8
+Ref 6.9
