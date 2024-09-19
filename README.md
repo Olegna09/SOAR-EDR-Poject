@@ -432,7 +432,48 @@ Now we need to include the details of the event to the message and email. We can
 #### Sensor ID: <<retrieve_detection.body.detect.routing.sid>
 #### Detection Link: <<retrieve_detection.body.link>>
 
+After doing this, we need to head to the slack in tines and paste this in the "Message" section. However, we can manually add the value by clicking the "+" button on the left bottom side of the message placeholder. 
+
 Ref 6.6
+
+![image](https://github.com/user-attachments/assets/cd79f7e7-8987-4376-8930-dfb26ad549c5)
+
+When we click the "+" button, and click the "value" you will be prompted by data "retrieve detection". When you click the "retrieve detection" and hit enter, there will be another prompt that is the content of the previous data (retrieve detection). The arrow indicates that there are content inside that data
+
 Ref 6.7
+
+![image](https://github.com/user-attachments/assets/cc2ead6a-ccd7-438b-b7bf-9148bf35b3b5)
+
+We can see the overview of that data in Tines. In the Webhook (retrieve detections), click in the events and you can see that under the "retrieve detections" there are 3 value, and under that 3 value, there are also a specific value for that. 
+
 Ref 6.8
+
+![image](https://github.com/user-attachments/assets/36f2723a-6c8b-4fec-96b0-f65bc6ad1784)
+
+But we're not gonna add values in the message, we just copy and paste the events that we did earlier. After copying the events to the message, we need to test it if it is working. Just click test and we'll head back to slack to see if we received the message. 
+
 Ref 6.9
+
+![image](https://github.com/user-attachments/assets/b3b31913-acdb-4147-878c-ec43e1d3b195)
+
+
+Ref 6.10
+Ref 6.11
+Ref 6.12
+Ref 6.13
+
+
+
+NOTE:
+If you want to check the connection of Tines in Slack, Head to Dashboard
+
+![image](https://github.com/user-attachments/assets/3c087bd9-57b2-457c-9919-616596ea2467)
+
+Dropdown "Your draft" and go to credentials
+
+![image](https://github.com/user-attachments/assets/4c2df2e6-982b-4ca8-be72-d055d382a279)
+
+There must be a slack on the list just like this
+
+![image](https://github.com/user-attachments/assets/1f40ec21-15df-40d2-bd27-4365d51b8dc6)
+
