@@ -420,6 +420,18 @@ Ref 6.5
 
 ![image](https://github.com/user-attachments/assets/aae68b32-37be-43fd-acb4-08121445c380)
 
+Now we need to include the details of the event to the message and email. We can see the details that we need to send in Ref 1. Now we need to head to Tines, open the events and we can copy all the details that we need in that events. And because we're going to make it a content of a message, we need to add some title in it. It must look like this:
+
+#### Title: <<retrieve_detection.body.cat>>
+#### Time: <<retrieve_detection.body.detect.routing.event_time>>
+#### Computer: <<retrieve_detection.body.detect.routing.hostname>>
+#### Source IP: <<retrieve_detection.body.detect.routing.int_ip>>
+#### Username: <<retrieve_detection.body.detect.event.USER_NAME>>
+#### File Path: <<retrieve_detection.body.detect.event.FILE_PATH>>
+#### Command Line: <<retrieve_detection.body.detect.event.COMMAND_LINE>>
+#### Sensor ID: <<retrieve_detection.body.detect.routing.sid>
+#### Detection Link: <<retrieve_detection.body.link>>
+
 Ref 6.6
 Ref 6.7
 Ref 6.8
