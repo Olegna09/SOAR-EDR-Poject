@@ -418,8 +418,7 @@ We have now connection from Tines to Slack and Email. Now the next thing we need
 
 Ref 6.5
 
-![image](https://github.com/user-attachments/assets/6242b143-b1bf-4d43-9db8-22818fa64954)
-
+![image](https://github.com/user-attachments/assets/aae68b32-37be-43fd-acb4-08121445c380)
 
 Ref 6.6
 Ref 6.7
