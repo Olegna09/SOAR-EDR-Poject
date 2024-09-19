@@ -414,7 +414,7 @@ We have now connection from Tines to Slack and Email. Now the next thing we need
   	- Access Control: Member of this Tines Tenant
   	- And I leave the rest default
   	- Now we need to connect the "Webhook" to "Page"
-  	- We can also edit the page name in the bottom right where "Edit Page located"
+  	- We can also edit the page name in the bottom right where "Edit Page" located
 
 Ref 6.5
 
