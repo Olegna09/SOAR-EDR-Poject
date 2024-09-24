@@ -456,9 +456,22 @@ Ref 6.9
 
 ![image](https://github.com/user-attachments/assets/b3b31913-acdb-4147-878c-ec43e1d3b195)
 
-
+And now, It received the message with the right format that we want. 
 Ref 6.10
+
+![image](https://github.com/user-attachments/assets/4c34e08e-9aef-4b9a-a290-0d4fbee5bdcb)
+
+Now, we'll do this also to our Email message. But first we need to make this message HTML format so that we can view it in organize. Head to email and in the 'Body' section, in the top of the message box, click the 'Open HTML Editor'. 
+
 Ref 6.11
+
+![image](https://github.com/user-attachments/assets/74f8054a-1436-4840-86eb-fb925b81bee9)
+
+Add a 'br' or a break tag to make a new line for each. 
+
+![image](https://github.com/user-attachments/assets/6b30f8a4-04e9-4676-9606-b4849a1639a0)
+
+
 Ref 6.12
 Ref 6.13
 
