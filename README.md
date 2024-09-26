@@ -457,6 +457,7 @@ Ref 6.9
 ![image](https://github.com/user-attachments/assets/b3b31913-acdb-4147-878c-ec43e1d3b195)
 
 And now, It received the message with the right format that we want. 
+
 Ref 6.10
 
 ![image](https://github.com/user-attachments/assets/4c34e08e-9aef-4b9a-a290-0d4fbee5bdcb)
@@ -471,8 +472,14 @@ Add a 'br' or a break tag to make a new line for each.
 
 ![image](https://github.com/user-attachments/assets/6b30f8a4-04e9-4676-9606-b4849a1639a0)
 
+And now, we received the email with the details
 
 Ref 6.12
+
+![image](https://github.com/user-attachments/assets/268508d3-e797-4a6b-9c00-03fa49516b6b)
+
+Now let's go ahead and setup our user prompt. 
+
 Ref 6.13
 
 
